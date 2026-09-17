@@ -1,38 +1,10 @@
 [
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "The group",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "Lab news",
     "section": "",
-    "text": "People\n\n\n\nWe are building an interdisciplinary team spanning quantum materials, ultrafast optics, terahertz magnonics, and nanoscale devices."
-  },
-  {
-    "objectID": "people.html#principal-investigator",
-    "href": "people.html#principal-investigator",
-    "title": "The group",
-    "section": "Principal Investigator",
-    "text": "Principal Investigator\n\n\n\n\nThow Min Jerald Cham\n\nNanyang Assistant Professor · NTU EEE\n\nOur group focuses on controlling collective excitations in quantum materials using ultrafast spectroscopy, spintronics, and nanoscale heterostructures.\nEmail · Google Scholar"
-  },
-  {
-    "objectID": "people.html#group-members",
-    "href": "people.html#group-members",
-    "title": "The group",
-    "section": "Group Members",
-    "text": "Group Members\n\n\n\n\nWe are recruiting\n\nPhD · Postdoc · Undergraduate\n\nInterested in joining? Visit the Join Us page for current opportunities."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quantum Dynamics, Magnonics & Spintronics",
-    "section": "",
-    "text": "Nanyang Technological University · Singapore\n\n\n\n\nWe investigate and control the dynamics of spins, magnons, phonons and other collective excitations in quantum materials to uncover new physics and enable future technologies.\n\n\nExplore our research We are recruiting! Join the group"
-  },
-  {
-    "objectID": "index.html#qmagspin-lab-is-launching-at-ntu-eee-in-fall-2026",
-    "href": "index.html#qmagspin-lab-is-launching-at-ntu-eee-in-fall-2026",
-    "title": "Quantum Dynamics, Magnonics & Spintronics",
-    "section": "QMagSpin Lab is launching at NTU EEE in Fall 2026!",
-    "text": "QMagSpin Lab is launching at NTU EEE in Fall 2026!\nWe are looking for motivated students and postdoctoral researchers excited by quantum materials, experimental physics, and new ways to probe and control magnons and collective excitations."
+    "text": "News\n\n\nLab news\nPeople, papers, experiments, and milestones from the group.\n\n\n\nSeptember 2026 — The lab begins at NTU\nThe Cham QMagSpin Lab launches in the School of Electrical and Electronic Engineering at Nanyang Technological University.\n\n\n\nSeptember 2026 — We are recruiting\nWe welcome enquiries from prospective PhD students, postdoctoral researchers, and undergraduate researchers interested in quantum materials, magnonics, spintronics, and ultrafast spectroscopy."
   },
   {
     "objectID": "join.html",
@@ -70,6 +42,62 @@
     "text": "Get in touch\nFor more information, please email Prof. Cham"
   },
   {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "The group",
+    "section": "",
+    "text": "People\n\n\n\nWe are building an interdisciplinary team spanning quantum materials, ultrafast optics, terahertz magnonics, and nanoscale devices."
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "The group",
+    "section": "Principal Investigator",
+    "text": "Principal Investigator\n\n\n\n\nThow Min Jerald Cham\n\nNanyang Assistant Professor · NTU EEE\n\nOur group focuses on controlling collective excitations in quantum materials using ultrafast spectroscopy, spintronics, and nanoscale heterostructures.\nEmail · Google Scholar"
+  },
+  {
+    "objectID": "people.html#group-members",
+    "href": "people.html#group-members",
+    "title": "The group",
+    "section": "Group Members",
+    "text": "Group Members\n\n\n\n\nWe are recruiting\n\nPhD · Postdoc · Undergraduate\n\nInterested in joining? Visit the Join Us page for current opportunities."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quantum Dynamics, Magnonics & Spintronics",
+    "section": "",
+    "text": "Nanyang Technological University · Singapore\n\n\n\n\nWe investigate and control the dynamics of spins, magnons, phonons and other collective excitations in quantum materials to uncover new physics and enable future technologies.\n\n\nExplore our research We are recruiting! Join the group"
+  },
+  {
+    "objectID": "index.html#qmagspin-lab-is-launching-at-ntu-eee-in-fall-2026",
+    "href": "index.html#qmagspin-lab-is-launching-at-ntu-eee-in-fall-2026",
+    "title": "Quantum Dynamics, Magnonics & Spintronics",
+    "section": "QMagSpin Lab is launching at NTU EEE in Fall 2026!",
+    "text": "QMagSpin Lab is launching at NTU EEE in Fall 2026!\nWe are looking for motivated students and postdoctoral researchers excited by quantum materials, experimental physics, and new ways to probe and control magnons and collective excitations."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Selected work",
+    "section": "",
+    "text": "Publications\n\n\n\nResearch on collective quantum dynamics, magnonics, and van der Waals heterostructures."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Selected work",
+    "section": "Selected publications",
+    "text": "Selected publications\n\n\nSpin-filter tunneling detection of antiferromagnetic resonance with electrically tunable damping\n\n\nThow Min Jerald Cham, Daniel G. Chica, Xiaoxi Huang, Kenji Watanabe, Takashi Taniguchi, Xavier Roy, Yunqiu Kelly Luo, Daniel C. Ralph\n\n\nScience 389, 479–482 (2025)\n\n\n\n\nExchange Bias Between van der Waals Materials: Tilted Magnetic States and Field-Free Spin–Orbit-Torque Switching\n\n\nThow Min Jerald Cham, Reiley J. Dorrian, Xiyue S. Zhang, Avalon H. Dismukes, Daniel G. Chica, Andrew F. May, Xavier Roy, David A. Muller, Daniel C. Ralph, Yunqiu Kelly Luo\n\n\nAdvanced Materials 36, 2305739 (2024)\n\n\n\n\nSagnac interferometry for high-sensitivity optical measurements of spin-orbit torque\n\n\nSaba Karimeddiny*, Thow Min Jerald Cham*, Orion Smedley, Daniel C. Ralph, Yunqiu Kelly Luo\n\n\nScience Advances 9, eadi9039 (2023)\n\n\n* Equal Contribution.\n\n\n\n\nAnisotropic Gigahertz Antiferromagnetic Resonances of the Easy-Axis van der Waals Antiferromagnet CrSBr\n\n\nThow Min Jerald Cham, Saba Karimeddiny, Avalon H. Dismukes, Xavier Roy, Daniel C. Ralph, Yunqiu Kelly Luo\n\n\nNano Letters 22, 6716–6723 (2022)"
+  },
+  {
+    "objectID": "publications.html#full-publication-list",
+    "href": "publications.html#full-publication-list",
+    "title": "Selected work",
+    "section": "Full publication list",
+    "text": "Full publication list\nFor a complete and updated publication record, see Google Scholar."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Controlling quantum dynamics across scales",
@@ -96,33 +124,5 @@
     "title": "Controlling quantum dynamics across scales",
     "section": "Nanoscale high-frequency magnon spectroscopy",
     "text": "Nanoscale high-frequency magnon spectroscopy\nMany magnetic excitations naturally live at terahertz frequencies and on nanoscale length scales. We are developing spectroscopic approaches to access these regimes in thin crystals and heterostructures, where conventional techniques can become challenging.\nThese tools allow us to probe high-frequency spin dynamics and their interactions with other collective excitations, while extending spectroscopy toward material and device dimensions relevant to low-dimensional quantum systems.\nTopics: terahertz dynamics, nanoscale spectroscopy, collective excitations, low-dimensional magnets, and van der Waals heterostructures."
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "Lab news",
-    "section": "",
-    "text": "News\n\n\nLab news\nPeople, papers, experiments, and milestones from the group.\n\n\n\nSeptember 2026 — The lab begins at NTU\nThe Cham QMagSpin Lab launches in the School of Electrical and Electronic Engineering at Nanyang Technological University.\n\n\n\nSeptember 2026 — We are recruiting\nWe welcome enquiries from prospective PhD students, postdoctoral researchers, and undergraduate researchers interested in quantum materials, magnonics, spintronics, and ultrafast spectroscopy."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Selected work",
-    "section": "",
-    "text": "Publications\n\n\n\nResearch on collective quantum dynamics, magnonics, and van der Waals heterostructures."
-  },
-  {
-    "objectID": "publications.html#selected-publications",
-    "href": "publications.html#selected-publications",
-    "title": "Selected work",
-    "section": "Selected publications",
-    "text": "Selected publications\n\n\nSpin-filter tunneling detection of antiferromagnetic resonance with electrically tunable damping\n\n\nThow Min Jerald Cham, Daniel G. Chica, Xiaoxi Huang, Kenji Watanabe, Takashi Taniguchi, Xavier Roy, Yunqiu Kelly Luo, Daniel C. Ralph\n\n\nScience 389, 479–482 (2025)\n\n\n\n\nExchange Bias Between van der Waals Materials: Tilted Magnetic States and Field-Free Spin–Orbit-Torque Switching\n\n\nThow Min Jerald Cham, Reiley J. Dorrian, Xiyue S. Zhang, Avalon H. Dismukes, Daniel G. Chica, Andrew F. May, Xavier Roy, David A. Muller, Daniel C. Ralph, Yunqiu Kelly Luo\n\n\nAdvanced Materials 36, 2305739 (2024)\n\n\n\n\nSagnac interferometry for high-sensitivity optical measurements of spin-orbit torque\n\n\nSaba Karimeddiny*, Thow Min Jerald Cham*, Orion Smedley, Daniel C. Ralph, Yunqiu Kelly Luo\n\n\nScience Advances 9, eadi9039 (2023)\n\n\n* Equal Contribution.\n\n\n\n\nAnisotropic Gigahertz Antiferromagnetic Resonances of the Easy-Axis van der Waals Antiferromagnet CrSBr\n\n\nThow Min Jerald Cham, Saba Karimeddiny, Avalon H. Dismukes, Xavier Roy, Daniel C. Ralph, Yunqiu Kelly Luo\n\n\nNano Letters 22, 6716–6723 (2022)"
-  },
-  {
-    "objectID": "publications.html#full-publication-list",
-    "href": "publications.html#full-publication-list",
-    "title": "Selected work",
-    "section": "Full publication list",
-    "text": "Full publication list\nFor a complete and updated publication record, see Google Scholar."
   }
 ]
