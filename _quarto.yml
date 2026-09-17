@@ -1,11 +1,18 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - assets/**
 
 website:
-  title: "Cham QMagSpin Lab"
+  title: "Cham QMagSpin Lab @ NTU EEE"
+  site-url: "https://chamgroupntu.github.io/qmagspin-lab/"
+
   navbar:
     pinned: true
+    logo: "assets/logo.svg"
+    logo-alt: "Nanyang Technological University"
+
     left:
       - href: index.qmd
         text: Home
@@ -19,28 +26,35 @@ website:
         text: News
       - href: join.qmd
         text: Join Us
+
     right:
       - icon: envelope
-        href: mailto:YOUR_EMAIL@ntu.edu.sg
+        href: mailto:jerald.chamtm@ntu.edu.sg
         aria-label: Email
+
   page-footer:
     left: |
       **Cham QMagSpin Lab**  
       Quantum Magnonics & Spintronics
+
     right: |
       School of Electrical and Electronic Engineering  
       Nanyang Technological University, Singapore
+
   search: false
+
 
 format:
   html:
     theme:
       - cosmo
       - styles.scss
+
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
     anchor-sections: false
+
 
 execute:
   freeze: auto

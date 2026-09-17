@@ -14,21 +14,21 @@ Research on collective quantum dynamics, magnonics, and van der Waals heterostru
 
 
 ::: {.pub}
-<div class="pub-title">Spin-filter tunneling detection of antiferromagnetic resonance with electrically tunable damping</div>
+<div class="pub-title"><a href="https://doi.org/10.1126/science.adq8590" target="_blank">Spin-filter tunneling detection of antiferromagnetic resonance with electrically tunable damping</a></div>
 <div class="pub-authors"><strong>Thow Min Jerald Cham</strong>, Daniel G. Chica, Xiaoxi Huang, Kenji Watanabe, Takashi Taniguchi, Xavier Roy, Yunqiu Kelly Luo, Daniel C. Ralph</div>
 <div class="pub-meta"><em>Science</em> <strong>389</strong>, 479–482 (2025)</div>
 :::
 
 
 ::: {.pub}
-<div class="pub-title">Exchange Bias Between van der Waals Materials: Tilted Magnetic States and Field-Free Spin–Orbit-Torque Switching</div>
+<div class="pub-title"><a href="https://doi.org/10.1002/adma.202305739" target="_blank">Exchange Bias Between van der Waals Materials: Tilted Magnetic States and Field-Free Spin–Orbit-Torque Switching</a></div>
 <div class="pub-authors"><strong>Thow Min Jerald Cham</strong>, Reiley J. Dorrian, Xiyue S. Zhang, Avalon H. Dismukes, Daniel G. Chica, Andrew F. May, Xavier Roy, David A. Muller, Daniel C. Ralph, Yunqiu Kelly Luo</div>
 <div class="pub-meta"><em>Advanced Materials</em> <strong>36</strong>, 2305739 (2024)</div>
 :::
 
 
 ::: {.pub}
-<div class="pub-title">Sagnac interferometry for high-sensitivity optical measurements of spin-orbit torque</div>
+<div class="pub-title"><a href="https://doi.org/10.1126/sciadv.adi9039" target="_blank">Sagnac interferometry for high-sensitivity optical measurements of spin-orbit torque</a></div>
 <div class="pub-authors">Saba Karimeddiny<sup>&ast;</sup>, <strong>Thow Min Jerald Cham<sup>&ast;</sup></strong>, Orion Smedley, Daniel C. Ralph, Yunqiu Kelly Luo</div>
 <div class="pub-meta"><em>Science Advances</em> <strong>9</strong>, eadi9039 (2023)</div>
 <div class="pub-note"><sup>&ast;</sup> Equal Contribution.</div>
@@ -36,7 +36,7 @@ Research on collective quantum dynamics, magnonics, and van der Waals heterostru
 
 
 ::: {.pub}
-<div class="pub-title">Anisotropic Gigahertz Antiferromagnetic Resonances of the Easy-Axis van der Waals Antiferromagnet CrSBr</div>
+<div class="pub-title"><a href="https://doi.org/10.1021/acs.nanolett.2c02124" target="_blank">Anisotropic Gigahertz Antiferromagnetic Resonances of the Easy-Axis van der Waals Antiferromagnet CrSBr</a></div>
 <div class="pub-authors"><strong>Thow Min Jerald Cham</strong>, Saba Karimeddiny, Avalon H. Dismukes, Xavier Roy, Daniel C. Ralph, Yunqiu Kelly Luo</div>
 <div class="pub-meta"><em>Nano Letters</em> <strong>22</strong>, 6716–6723 (2022)</div>
 :::
@@ -44,4 +44,4 @@ Research on collective quantum dynamics, magnonics, and van der Waals heterostru
 
 ## Full publication list
 
-For a complete and updated publication record, see our [Google Scholar](https://scholar.google.com/citations?user=_OkT6W4AAAAJ)
+For a complete and updated publication record, see [Google Scholar](https://scholar.google.com/citations?user=_OkT6W4AAAAJ).

@@ -5,18 +5,20 @@ page-layout: article
 ::: {.page-hero}
 <div class="section-kicker">Join Us</div>
 
-# Come build the lab with us
+# Join our brand new lab at NTU!
 
-We welcome researchers who are excited by quantum materials, experimental physics, and the challenge of creating new ways to control spins and collective excitations.
+Launching QMagSpin Lab at NTU EEE in Fall 2026. We are looking for motivated students and postdocs who are excited by quantum materials, experimental physics, and the challenge of creating new ways to probe and control magnons and collective quantum excitations.
 :::
 
 ## PhD students
 
-Prospective PhD students with backgrounds in physics, electrical engineering, materials science, photonics, or related areas are encouraged to get in touch. Experience in 2D materials, nanofabrication, ultrafast optics is useful but not required.
+We have openings for Jan 2027 intake! 
+
+Prospective PhD students interested in magnonics, spintronics and heterostructure engineering of quantum excitations are welcome. Various [scholarships](https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/awards--scholarships-and-teaching-opportunities-(for-postgradute-ph.d.)#Content_C041_Col00), including the prestigious Nanyang President's Graduate scholarship and the Provost Graduate Award are available.
 
 ## Postdoctoral researchers
 
-We welcome enquiries from researchers interested in developing independent projects at the intersection of ultrafast spectroscopy, terahertz science, spintronics, and low-dimensional quantum materials.
+We welcome prospective postdocs interested in research at the intersection of ultrafast spectroscopy, terahertz science, spintronics, and low-dimensional quantum materials.
 
 ## Undergraduate researchers
 
@@ -24,4 +26,4 @@ NTU undergraduate students interested in research projects, URECA, final-year pr
 
 ## Get in touch
 
-Please [email me](mailto:jerald.chamtm@ntu.edu.sg) with a short introduction, your CV, and a few sentences about the research directions that interest you.
+For more information, please [email Prof. Cham](mailto:jerald.chamtm@ntu.edu.sg)

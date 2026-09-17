@@ -14,7 +14,7 @@ page-layout: full
 
 ::: {.hero-actions}
 [Explore our research](research.qmd){.btn .btn-primary}
-[Join the group](join.qmd){.btn .btn-outline-dark}
+[We are recruiting! Join the group](join.qmd){.btn .btn-outline-dark}
 :::
 :::
 
@@ -237,9 +237,9 @@ We welcome enquiries from motivated PhD students, postdoctoral researchers, and 
 
 <div>
 
-## Build the next experiments with us.
+## QMagSpin Lab is launching at NTU EEE in Fall 2026!
 
-We are looking for curious researchers interested in quantum materials, magnons, ultrafast dynamics, spintronics, terahertz science, and nanoscale spectroscopy.
+We are looking for motivated students and postdoctoral researchers excited by quantum materials, experimental physics, and new ways to probe and control magnons and collective excitations.
 
 </div>
 

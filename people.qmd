@@ -31,7 +31,7 @@ Our group focuses on controlling collective excitations in quantum materials usi
 ::: {.person-card}
 ![](assets/Mascot.jpg)
 
-### We are growing
+### We are recruiting
 <div class="person-role">PhD · Postdoc · Undergraduate</div>
 
 Interested in joining? Visit the [Join Us](join.qmd) page for current opportunities.

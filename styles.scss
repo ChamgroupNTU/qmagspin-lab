@@ -66,17 +66,39 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   box-shadow: none;
 
-  padding-top: 0.85rem;
-  padding-bottom: 0.85rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
 .navbar-brand {
   font-weight: 750;
   letter-spacing: -0.02em;
+
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav .nav-link {
   font-weight: 550;
+}
+
+
+/* ============================================================
+   NTU NAVBAR LOGO
+   ============================================================ */
+
+.navbar-logo {
+  display: block;
+
+  height: 120px !important;
+  width: auto !important;
+
+  max-height: none !important;
+  max-width: 240px;
+
+  object-fit: contain;
+
+  margin-right: 0.8rem;
 }
 
 
@@ -129,11 +151,6 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-
-/*
-Wider than the other page sections because the
-homepage hero now contains a large scientific image.
-*/
 
 .hero-inner {
   width: min(
@@ -225,8 +242,13 @@ homepage hero now contains a large scientific image.
 
 .hero-actions {
   display: flex;
-  gap: 0.85rem;
+
+  column-gap: 0.85rem;
+  row-gap: 1.2rem;
+
   flex-wrap: wrap;
+
+  margin-top: 1.2rem;
 }
 
 
@@ -279,15 +301,170 @@ homepage hero now contains a large scientific image.
 
 .hero-visual img {
   display: block;
+
   width: 118%;
   max-width: none;
   height: auto;
+
   object-fit: contain;
+
   border: 0;
   border-radius: 0;
   box-shadow: none;
 
-  transform: translate(-5rem, -1rem);
+  margin-left: -5%;
+}
+
+
+/* ============================================================
+   HOME IMAGE REEL
+   ============================================================ */
+
+.home-reel {
+  width: min(
+    var(--max-width),
+    calc(100% - 3rem)
+  );
+
+  margin: 4.5rem auto 5.5rem;
+}
+
+
+.home-reel .carousel {
+  overflow: hidden;
+
+  border: 1px solid var(--line);
+  border-radius: 22px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.035),
+    0 16px 44px rgba(0, 0, 0, 0.07);
+}
+
+
+/* ---------- Reel images ---------- */
+
+.home-reel .carousel-item img {
+  display: block;
+
+  width: 100%;
+
+  height: clamp(
+    380px,
+    48vw,
+    600px
+  );
+
+  object-fit: contain;
+
+  background: #ffffff;
+}
+
+
+/* ---------- Reel caption ---------- */
+
+.reel-caption-below {
+  position: relative;
+
+  padding:
+    1.6rem
+    2rem
+    2rem;
+
+  background: #ffffff;
+
+  border-top: 1px solid var(--line);
+
+  text-align: left;
+}
+
+
+.reel-label {
+  color: var(--accent);
+
+  font-size: 0.76rem;
+  font-weight: 750;
+
+  letter-spacing: 0.13em;
+
+  margin-bottom: 0.35rem;
+}
+
+
+.reel-title {
+  color: var(--ink);
+
+  font-size: clamp(
+    1.3rem,
+    2vw,
+    1.9rem
+  );
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  letter-spacing: -0.025em;
+}
+
+
+.reel-paper {
+  color: var(--muted);
+
+  font-size: 0.92rem;
+
+  margin-top: 0.45rem;
+}
+
+
+/* ---------- Reel arrows ---------- */
+
+.home-reel .carousel-control-prev,
+.home-reel .carousel-control-next {
+  width: 7%;
+
+  bottom: 120px;
+}
+
+
+.home-reel .carousel-control-prev-icon,
+.home-reel .carousel-control-next-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+
+  border-radius: 50%;
+
+  background-color: rgba(23, 23, 23, 0.72);
+
+  background-size: 48%;
+}
+
+
+/* ---------- Reel indicators ---------- */
+
+.home-reel .carousel-indicators {
+  bottom: 118px;
+
+  margin-bottom: 1rem;
+}
+
+
+.home-reel .carousel-indicators button {
+  width: 28px;
+  height: 3px;
+
+  border: 0;
+
+  background-color: var(--ink);
+
+  opacity: 0.35;
+}
+
+
+.home-reel .carousel-indicators .active {
+  opacity: 0.9;
 }
 
 
@@ -666,7 +843,6 @@ homepage hero now contains a large scientific image.
 
 /* ============================================================
    RESEARCH PAGE
-   IMAGE + TEXT FEATURE SECTIONS
    ============================================================ */
 
 .research-feature {
@@ -713,11 +889,6 @@ homepage hero now contains a large scientific image.
   margin: 0;
 }
 
-
-/*
-Show scientific images in full.
-No forced aspect ratio and no cropping.
-*/
 
 .research-visual img {
   display: block;
@@ -900,6 +1071,22 @@ No forced aspect ratio and no cropping.
 }
 
 
+.pub-title a {
+  color: var(--ink);
+
+  text-decoration: none;
+
+  transition: color 0.18s ease;
+}
+
+
+.pub-title a:hover {
+  color: var(--accent);
+
+  text-decoration: none;
+}
+
+
 .pub-authors {
   margin-top: 0.28rem;
 
@@ -1009,12 +1196,14 @@ No forced aspect ratio and no cropping.
     max-width: 900px;
 
     margin-left: 0;
+
+    transform: none;
   }
 }
 
 
 /* ============================================================
-   RESEARCH PAGE RESPONSIVE
+   RESEARCH PAGE / REEL TABLET
    ============================================================ */
 
 @media (max-width: 780px) {
@@ -1028,12 +1217,6 @@ No forced aspect ratio and no cropping.
     padding: 3rem 0;
   }
 
-
-  /*
-  Mobile research layout:
-  image
-  text
-  */
 
   .research-feature .research-visual,
   .research-feature-reverse .research-visual {
@@ -1067,13 +1250,43 @@ No forced aspect ratio and no cropping.
   }
 
 
-  /*
-  Justification can create awkward spacing
-  on narrow screens.
-  */
-
   .research-copy p {
     text-align: left;
+  }
+
+
+  /* ---------- Reel ---------- */
+
+  .home-reel {
+    width: min(
+      100% - 2rem,
+      var(--max-width)
+    );
+
+    margin: 2.5rem auto 3.5rem;
+  }
+
+
+  .home-reel .carousel {
+    border-radius: 16px;
+  }
+
+
+  .home-reel .carousel-item img {
+    height: 380px;
+  }
+
+
+  .reel-caption-below {
+    padding:
+      1.3rem
+      1.4rem
+      1.6rem;
+  }
+
+
+  .reel-title {
+    font-size: 1.35rem;
   }
 }
 
@@ -1083,6 +1296,15 @@ No forced aspect ratio and no cropping.
    ============================================================ */
 
 @media (max-width: 560px) {
+
+  .navbar-logo {
+    height: 58px !important;
+    max-height: none !important;
+    max-width: 170px;
+
+    margin-right: 0.5rem;
+  }
+
 
   .hero-inner,
   .section-wrap {
@@ -1116,17 +1338,29 @@ No forced aspect ratio and no cropping.
   }
 
 
-  /*
-  Let the hero illustration bleed slightly
-  wider than the text column on phones.
-  */
+  /* ----------------------------------------------------------
+     MOBILE HERO IMAGE
+     ---------------------------------------------------------- */
+
+  .hero-visual {
+    overflow: visible;
+  }
+
 
   .hero-visual img {
+    display: block;
+
     width: 110%;
-
     max-width: none;
+    height: auto;
 
-    margin-left: -5%;
+    position: relative;
+
+    left: 52%;
+
+    margin-left: 0;
+
+    transform: translateX(-50%);
   }
 
 
@@ -1163,5 +1397,26 @@ No forced aspect ratio and no cropping.
     height: auto;
 
     border-radius: 12px;
+  }
+
+
+  /* ---------- Reel ---------- */
+
+  .home-reel .carousel-item img {
+    height: 280px;
+  }
+
+
+  .home-reel .carousel-control-prev,
+  .home-reel .carousel-control-next {
+    width: 12%;
+  }
+
+
+  .reel-caption-below {
+    padding:
+      1.1rem
+      1.2rem
+      1.4rem;
   }
 }
