@@ -1,0 +1,249 @@
+---
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-inner .hero-split}
+
+::: {.hero-copy}
+<div class="eyebrow">Nanyang Technological University · Singapore</div>
+
+# Quantum Dynamics, Magnonics & Spintronics
+
+<div class="lead">We investigate and control the dynamics of spins, magnons, phonons and other collective excitations in quantum materials to uncover new physics and enable future technologies.</div>
+
+::: {.hero-actions}
+[Explore our research](research.qmd){.btn .btn-primary}
+[Join the group](join.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.hero-visual}
+![](assets/MainPage.png){alt="QMagSpin Lab research schematic"}
+:::
+
+:::
+:::
+
+
+<!-- =========================================================
+     RESEARCH IMAGE REEL
+     ========================================================= -->
+
+<div class="home-reel">
+
+<div id="qmagspinCarousel"
+     class="carousel slide carousel-fade"
+     data-bs-ride="carousel"
+     data-bs-interval="5000">
+
+<div class="carousel-indicators">
+
+<button type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"></button>
+
+<button type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+
+<button type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+
+<button type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+
+<button type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+
+</div>
+
+
+<div class="carousel-inner">
+
+
+<!-- =========================================================
+     SLIDE 1 — SCIENCE 2025
+     ========================================================= -->
+
+<div class="carousel-item active">
+
+<img src="assets/reel/Device.png"
+     class="d-block w-100"
+     alt="Spin-filter tunneling detection of antiferromagnetic resonance">
+
+<div class="reel-caption-below">
+
+<div class="reel-label">
+ANTIFERROMAGNETIC MAGNONICS
+</div>
+
+<div class="reel-paper">
+Science 389, 479–482 (2025)
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =========================================================
+     SLIDE 2 — ADVANCED MATERIALS 2024
+     ========================================================= -->
+
+<div class="carousel-item">
+
+<img src="assets/reel/FGT.png"
+     class="d-block w-100"
+     alt="Van der Waals exchange-bias heterostructure">
+
+<div class="reel-caption-below">
+
+<div class="reel-label">
+VAN DER WAALS HETEROSTRUCTURES
+</div>
+
+<div class="reel-paper">
+Advanced Materials 36, 2305739 (2024)
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =========================================================
+     SLIDE 3 — SCIENCE ADVANCES 2023
+     ========================================================= -->
+
+<div class="carousel-item">
+
+<img src="assets/reel/sagnac.png"
+     class="d-block w-100"
+     alt="Sagnac interferometry for spin-orbit torque measurements">
+
+<div class="reel-caption-below">
+
+<div class="reel-label">
+OPTICAL PROBING OF SPIN DYNAMICS
+</div>
+
+<div class="reel-paper">
+Science Advances 9, eadi9039 (2023)
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =========================================================
+     PREVIOUS / NEXT
+     ========================================================= -->
+
+<button class="carousel-control-prev"
+        type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"
+      aria-hidden="true"></span>
+
+<span class="visually-hidden">
+Previous
+</span>
+
+</button>
+
+
+<button class="carousel-control-next"
+        type="button"
+        data-bs-target="#qmagspinCarousel"
+        data-bs-slide="next">
+
+<span class="carousel-control-next-icon"
+      aria-hidden="true"></span>
+
+<span class="visually-hidden">
+Next
+</span>
+
+</button>
+
+</div>
+
+</div>
+
+
+<!-- =========================================================
+     LATEST
+     ========================================================= -->
+
+::: {.band}
+::: {.section-wrap}
+
+<div class="section-kicker">Latest</div>
+
+<div class="section-title">From the lab.</div>
+
+
+::: {.news-list}
+
+::: {.news-item}
+
+<div class="news-date">September 2026</div>
+
+<div>
+<strong>The Cham QMagSpin Lab launches at NTU.</strong><br>
+We are building new capabilities in antiferromagnetic magnonics, ultrafast spectroscopy, spintronics, and nanoscale THz science.
+</div>
+
+:::
+
+
+::: {.news-item}
+
+<div class="news-date">September 2026</div>
+
+<div>
+<strong>We are recruiting.</strong><br>
+We welcome enquiries from motivated PhD students, postdoctoral researchers, and undergraduate researchers.
+</div>
+
+:::
+
+:::
+:::
+:::
+
+
+<!-- =========================================================
+     JOIN CTA
+     ========================================================= -->
+
+::: {.section-wrap}
+
+::: {.cta}
+
+<div>
+
+## Build the next experiments with us.
+
+We are looking for curious researchers interested in quantum materials, magnons, ultrafast dynamics, spintronics, terahertz science, and nanoscale spectroscopy.
+
+</div>
+
+[Join the group →](join.qmd){.btn}
+
+:::
+:::

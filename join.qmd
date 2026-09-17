@@ -1,0 +1,27 @@
+---
+page-layout: article
+---
+
+::: {.page-hero}
+<div class="section-kicker">Join Us</div>
+
+# Come build the lab with us
+
+We welcome researchers who are excited by quantum materials, experimental physics, and the challenge of creating new ways to control spins and collective excitations.
+:::
+
+## PhD students
+
+Prospective PhD students with backgrounds in physics, electrical engineering, materials science, photonics, or related areas are encouraged to get in touch. Experience in 2D materials, nanofabrication, ultrafast optics is useful but not required.
+
+## Postdoctoral researchers
+
+We welcome enquiries from researchers interested in developing independent projects at the intersection of ultrafast spectroscopy, terahertz science, spintronics, and low-dimensional quantum materials.
+
+## Undergraduate researchers
+
+NTU undergraduate students interested in research projects, URECA, final-year projects, or shorter research experiences are welcome to contact us.
+
+## Get in touch
+
+Please [email me](mailto:jerald.chamtm@ntu.edu.sg) with a short introduction, your CV, and a few sentences about the research directions that interest you.

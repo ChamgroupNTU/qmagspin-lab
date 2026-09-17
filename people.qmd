@@ -1,0 +1,39 @@
+---
+page-layout: article
+---
+
+::: {.page-hero}
+<div class="section-kicker">People</div>
+
+# The group
+
+We are building an interdisciplinary team spanning quantum materials, ultrafast optics, terahertz magnonics, and nanoscale devices.
+:::
+
+## Principal Investigator
+
+::: {.person-grid}
+::: {.person-card}
+![](assets/jerald.jpeg)
+
+### Thow Min Jerald Cham
+<div class="person-role">Nanyang Assistant Professor · NTU EEE</div>
+
+Our group focuses on controlling collective excitations in quantum materials using ultrafast spectroscopy, spintronics, and nanoscale heterostructures.
+
+[Email](mailto:jerald.chamtm@ntu.edu.sg) · [Google Scholar](https://scholar.google.com/citations?user=_OkT6W4AAAAJ)
+:::
+:::
+
+## Group Members
+
+::: {.person-grid}
+::: {.person-card}
+![](assets/Mascot.jpg)
+
+### We are growing
+<div class="person-role">PhD · Postdoc · Undergraduate</div>
+
+Interested in joining? Visit the [Join Us](join.qmd) page for current opportunities.
+:::
+:::

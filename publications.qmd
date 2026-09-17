@@ -1,0 +1,47 @@
+---
+page-layout: article
+---
+
+::: {.page-hero}
+<div class="section-kicker">Publications</div>
+
+# Selected work
+
+Research on collective quantum dynamics, magnonics, and van der Waals heterostructures.
+:::
+
+## Selected publications
+
+
+::: {.pub}
+<div class="pub-title">Spin-filter tunneling detection of antiferromagnetic resonance with electrically tunable damping</div>
+<div class="pub-authors"><strong>Thow Min Jerald Cham</strong>, Daniel G. Chica, Xiaoxi Huang, Kenji Watanabe, Takashi Taniguchi, Xavier Roy, Yunqiu Kelly Luo, Daniel C. Ralph</div>
+<div class="pub-meta"><em>Science</em> <strong>389</strong>, 479–482 (2025)</div>
+:::
+
+
+::: {.pub}
+<div class="pub-title">Exchange Bias Between van der Waals Materials: Tilted Magnetic States and Field-Free Spin–Orbit-Torque Switching</div>
+<div class="pub-authors"><strong>Thow Min Jerald Cham</strong>, Reiley J. Dorrian, Xiyue S. Zhang, Avalon H. Dismukes, Daniel G. Chica, Andrew F. May, Xavier Roy, David A. Muller, Daniel C. Ralph, Yunqiu Kelly Luo</div>
+<div class="pub-meta"><em>Advanced Materials</em> <strong>36</strong>, 2305739 (2024)</div>
+:::
+
+
+::: {.pub}
+<div class="pub-title">Sagnac interferometry for high-sensitivity optical measurements of spin-orbit torque</div>
+<div class="pub-authors">Saba Karimeddiny<sup>&ast;</sup>, <strong>Thow Min Jerald Cham<sup>&ast;</sup></strong>, Orion Smedley, Daniel C. Ralph, Yunqiu Kelly Luo</div>
+<div class="pub-meta"><em>Science Advances</em> <strong>9</strong>, eadi9039 (2023)</div>
+<div class="pub-note"><sup>&ast;</sup> Equal Contribution.</div>
+:::
+
+
+::: {.pub}
+<div class="pub-title">Anisotropic Gigahertz Antiferromagnetic Resonances of the Easy-Axis van der Waals Antiferromagnet CrSBr</div>
+<div class="pub-authors"><strong>Thow Min Jerald Cham</strong>, Saba Karimeddiny, Avalon H. Dismukes, Xavier Roy, Daniel C. Ralph, Yunqiu Kelly Luo</div>
+<div class="pub-meta"><em>Nano Letters</em> <strong>22</strong>, 6716–6723 (2022)</div>
+:::
+
+
+## Full publication list
+
+For a complete and updated publication record, see our [Google Scholar](https://scholar.google.com/citations?user=_OkT6W4AAAAJ)
