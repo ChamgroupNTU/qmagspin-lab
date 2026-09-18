@@ -1,6 +1,8 @@
 ---
-page-layout: article
+page-layout: full
 ---
+
+::: {.people-page}
 
 ::: {.page-hero}
 <div class="section-kicker">People</div>
@@ -10,30 +12,40 @@ page-layout: article
 We are building an interdisciplinary team spanning quantum materials, ultrafast optics, terahertz magnonics, and nanoscale devices.
 :::
 
+
 ## Principal Investigator
 
-::: {.person-grid}
+::: {.person-grid .pi-grid}
+
 ::: {.person-card}
 ![](assets/jerald.jpeg)
 
-### Thow Min Jerald Cham
+### Thow Min Jerald CHAM
 <div class="person-role">Nanyang Assistant Professor · NTU EEE</div>
 
-Our group focuses on controlling collective excitations in quantum materials using ultrafast spectroscopy, spintronics, and nanoscale heterostructures.
+A Nanyang Assistant Professor in the School of Electrical and Electronic Engineering at Nanyang Technological University (NTU), Singapore, he leads the Cham QMagSpin Lab. He was previously a David and Ellen Lee Postdoctoral Research Scholar at the California Institute of Technology, working with Prof. David Hsieh on ultrafast spectroscopy and the control of collective excitations in quantum materials. He received his PhD in Physics from Cornell University in 2024, where he worked with Prof. Daniel C. Ralph on 2D spintronics and antiferromagnetic van der Waals heterostructure nanodevices. He obtained his undergraduate degree in Physics from Imperial College London in 2017.
 
-[Email](mailto:jerald.chamtm@ntu.edu.sg) · [Google Scholar](https://scholar.google.com/citations?user=_OkT6W4AAAAJ)
+[Email](mailto:jerald.chamtm@ntu.edu.sg) · [Google Scholar](https://scholar.google.com/citations?user=_OkT6W4AAAAJ) · [CV](assets/Cham_CV2026_groupwebsite.pdf)
+
 :::
+
 :::
+
 
 ## Group Members
 
 ::: {.person-grid}
+
 ::: {.person-card}
 ![](assets/Mascot.jpg)
 
-### We are recruiting
+### Join our growing lab! PhD and Postdoc Scholarships available!
 <div class="person-role">PhD · Postdoc · Undergraduate</div>
 
 Interested in joining? Visit the [Join Us](join.qmd) page for current opportunities.
+
 :::
+
+:::
+
 :::

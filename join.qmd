@@ -2,28 +2,44 @@
 page-layout: article
 ---
 
+::: {.join-page}
+
 ::: {.page-hero}
 <div class="section-kicker">Join Us</div>
 
-# Join our brand new lab at NTU!
+# Join the group
 
-Launching QMagSpin Lab at NTU EEE in Fall 2026. We are looking for motivated students and postdocs who are excited by quantum materials, experimental physics, and the challenge of creating new ways to probe and control magnons and collective quantum excitations.
+We are building a new research group at NTU EEE working at the intersection of quantum materials, ultrafast spectroscopy, terahertz science, magnonics, and spintronics.
 :::
+
 
 ## PhD students
 
-We have openings for Jan 2027 intake! 
+We welcome enquiries from prospective PhD students interested in experimental condensed matter physics, quantum materials, magnetism, spintronics, ultrafast spectroscopy, and terahertz science.
 
-Prospective PhD students interested in magnonics, spintronics and heterostructure engineering of quantum excitations are welcome. Various [scholarships](https://www.ntu.edu.sg/eee/admissions/programmes/graduate-programmes/awards--scholarships-and-teaching-opportunities-(for-postgradute-ph.d.)#Content_C041_Col00), including the prestigious Nanyang President's Graduate scholarship and the Provost Graduate Award are available.
+**We have openings for the Jan 2027 and Aug 2027 intakes**. Students may apply through NTU's graduate research programmes and are encouraged to explore [NTU Research Scholarships](https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships).
+
+Prospective students are welcome to get in touch to discuss possible research directions and potential projects before applying.
+
 
 ## Postdoctoral researchers
 
 We welcome prospective postdocs interested in research at the intersection of ultrafast spectroscopy, terahertz science, spintronics, and low-dimensional quantum materials.
 
+**Postdoctoral fellowship opportunities are available.** See [NTU Research Careers](https://www.ntu.edu.sg/research/research-careers) for current fellowship and research opportunities.
+
+Interested candidates are encouraged to contact us to discuss research interests, potential projects, and suitable fellowship opportunities.
+
+
 ## Undergraduate researchers
 
-NTU undergraduate students interested in research projects, URECA, final-year projects, or shorter research experiences are welcome to contact us.
+We welcome motivated NTU undergraduate students interested in gaining research experience in quantum materials, optics, magnetism, spintronics, and related experimental techniques.
+
+Projects may involve optical spectroscopy, device fabrication, data analysis, numerical modelling, instrumentation, or the development of new experimental techniques.
+
 
 ## Get in touch
 
-For more information, please [email Prof. Cham](mailto:jerald.chamtm@ntu.edu.sg)
+If you are interested in joining the group, please email [Prof. Cham](mailto:jerald.chamtm@ntu.edu.sg) to find out more about scholarship and fellowship opportunities.
+
+:::

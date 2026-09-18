@@ -10,7 +10,7 @@ page-layout: full
 
 # Quantum Dynamics, Magnonics & Spintronics
 
-<div class="lead">We investigate and control the dynamics of spins, magnons, phonons and other collective excitations in quantum materials to uncover new physics and enable future technologies.</div>
+<div class="lead">We investigate and control the dynamics of spins, magnons, phonons and other collective quantum excitations in engineered heterostructures to uncover new physics and enable future technologies.</div>
 
 ::: {.hero-actions}
 [Explore our research](research.qmd){.btn .btn-primary}

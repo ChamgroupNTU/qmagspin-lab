@@ -3,6 +3,7 @@
 $body-bg: #ffffff;
 $body-color: #171717;
 $link-color: #8a1538;
+
 $navbar-bg: #ffffff;
 $navbar-fg: #171717;
 $navbar-hl: #8a1538;
@@ -28,7 +29,7 @@ $headings-font-family:
 
 
 /* ============================================================
-   GLOBAL VARIABLES
+   VARIABLES
    ============================================================ */
 
 :root {
@@ -57,6 +58,10 @@ body {
   line-height: 1.65;
 }
 
+a {
+  transition: color 0.18s ease;
+}
+
 
 /* ============================================================
    NAVBAR
@@ -82,15 +87,10 @@ body {
   font-weight: 550;
 }
 
-
-/* ============================================================
-   NTU NAVBAR LOGO
-   ============================================================ */
-
 .navbar-logo {
   display: block;
 
-  height: 120px !important;
+  height: 58px !important;
   width: auto !important;
 
   max-height: none !important;
@@ -103,7 +103,7 @@ body {
 
 
 /* ============================================================
-   QUARTO PAGE LAYOUT
+   QUARTO LAYOUT
    ============================================================ */
 
 #quarto-content {
@@ -121,7 +121,51 @@ body {
 
 
 /* ============================================================
-   HOME HERO
+   PEOPLE PAGE WIDTH
+   ============================================================ */
+
+.people-page {
+  width: min(
+    var(--max-width),
+    calc(100% - 3rem)
+  );
+
+  margin: 0 auto;
+}
+
+
+/* ============================================================
+   JOIN PAGE
+   ============================================================ */
+
+.join-page p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* ============================================================
+   PAGE HERO
+   ============================================================ */
+
+.page-hero {
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(2.6rem, 5vw, 4.5rem);
+
+  line-height: 1;
+  letter-spacing: -0.045em;
+
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+
+/* ============================================================
+   HOMEPAGE HERO
    ============================================================ */
 
 .hero {
@@ -151,22 +195,13 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-
 .hero-inner {
-  width: min(
-    1380px,
-    calc(100% - 3rem)
-  );
+  width: min(1380px, calc(100% - 3rem));
 
   margin: 0 auto;
 
   padding: 6rem 0 5rem;
 }
-
-
-/* ============================================================
-   HERO SPLIT
-   ============================================================ */
 
 .hero-split {
   display: grid;
@@ -175,15 +210,10 @@ body {
     minmax(0, 0.88fr)
     minmax(0, 1.12fr);
 
-  gap: clamp(
-    2rem,
-    4vw,
-    4rem
-  );
+  gap: clamp(2rem, 4vw, 4rem);
 
   align-items: center;
 }
-
 
 .hero-copy {
   position: relative;
@@ -191,30 +221,33 @@ body {
 }
 
 
+/* ============================================================
+   EYEBROW
+   ============================================================ */
+
 .eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
+  color: var(--accent);
 
   font-size: 0.78rem;
   font-weight: 750;
 
-  color: var(--accent);
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
 
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.25rem;
 }
 
+
+/* ============================================================
+   HERO TEXT
+   ============================================================ */
 
 .hero h1 {
   max-width: 680px;
 
-  font-size: clamp(
-    3rem,
-    5.3vw,
-    5.5rem
-  );
+  font-size: clamp(3rem, 5.3vw, 5.5rem);
 
   line-height: 0.95;
-
   letter-spacing: -0.055em;
 
   margin: 0 0 1.5rem;
@@ -222,15 +255,10 @@ body {
   font-weight: 780;
 }
 
-
 .hero .lead {
   max-width: 700px;
 
-  font-size: clamp(
-    1.16rem,
-    1.7vw,
-    1.55rem
-  );
+  font-size: clamp(1.16rem, 1.7vw, 1.55rem);
 
   line-height: 1.48;
 
@@ -239,6 +267,10 @@ body {
   margin-bottom: 2.2rem;
 }
 
+
+/* ============================================================
+   HERO BUTTONS
+   ============================================================ */
 
 .hero-actions {
   display: flex;
@@ -251,65 +283,76 @@ body {
   margin-top: 1.2rem;
 }
 
-
-.hero-actions .btn {
+.btn {
   border-radius: 999px;
 
-  padding: 0.8rem 1.2rem;
+  padding: 0.72rem 1.25rem;
 
   font-weight: 650;
-}
 
+  text-decoration: none;
+}
 
 .btn-primary {
   background: var(--accent);
   border-color: var(--accent);
-}
 
+  color: white;
+}
 
 .btn-primary:hover {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
+
+  color: white;
 }
 
+.btn-outline-dark {
+  border-color: var(--ink);
+
+  color: var(--ink);
+}
 
 .btn-outline-dark:hover {
   background: var(--ink);
+
+  color: white;
 }
 
 
 /* ============================================================
-   HERO SCIENTIFIC IMAGE
+   HERO IMAGE
    ============================================================ */
 
 .hero-visual {
   min-width: 0;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
   overflow: visible;
 }
 
-
 .hero-visual p {
   margin: 0;
   width: 100%;
 }
-
 
 .hero-visual img {
   display: block;
 
   width: 118%;
   max-width: none;
+
   height: auto;
 
   object-fit: contain;
 
   border: 0;
   border-radius: 0;
+
   box-shadow: none;
 
   margin-left: -5%;
@@ -317,159 +360,7 @@ body {
 
 
 /* ============================================================
-   HOME IMAGE REEL
-   ============================================================ */
-
-.home-reel {
-  width: min(
-    var(--max-width),
-    calc(100% - 3rem)
-  );
-
-  margin: 4.5rem auto 5.5rem;
-}
-
-
-.home-reel .carousel {
-  overflow: hidden;
-
-  border: 1px solid var(--line);
-  border-radius: 22px;
-
-  background: #ffffff;
-
-  box-shadow:
-    0 2px 5px rgba(0, 0, 0, 0.035),
-    0 16px 44px rgba(0, 0, 0, 0.07);
-}
-
-
-/* ---------- Reel images ---------- */
-
-.home-reel .carousel-item img {
-  display: block;
-
-  width: 100%;
-
-  height: clamp(
-    380px,
-    48vw,
-    600px
-  );
-
-  object-fit: contain;
-
-  background: #ffffff;
-}
-
-
-/* ---------- Reel caption ---------- */
-
-.reel-caption-below {
-  position: relative;
-
-  padding:
-    1.6rem
-    2rem
-    2rem;
-
-  background: #ffffff;
-
-  border-top: 1px solid var(--line);
-
-  text-align: left;
-}
-
-
-.reel-label {
-  color: var(--accent);
-
-  font-size: 0.76rem;
-  font-weight: 750;
-
-  letter-spacing: 0.13em;
-
-  margin-bottom: 0.35rem;
-}
-
-
-.reel-title {
-  color: var(--ink);
-
-  font-size: clamp(
-    1.3rem,
-    2vw,
-    1.9rem
-  );
-
-  font-weight: 700;
-
-  line-height: 1.2;
-
-  letter-spacing: -0.025em;
-}
-
-
-.reel-paper {
-  color: var(--muted);
-
-  font-size: 0.92rem;
-
-  margin-top: 0.45rem;
-}
-
-
-/* ---------- Reel arrows ---------- */
-
-.home-reel .carousel-control-prev,
-.home-reel .carousel-control-next {
-  width: 7%;
-
-  bottom: 120px;
-}
-
-
-.home-reel .carousel-control-prev-icon,
-.home-reel .carousel-control-next-icon {
-  width: 2.25rem;
-  height: 2.25rem;
-
-  border-radius: 50%;
-
-  background-color: rgba(23, 23, 23, 0.72);
-
-  background-size: 48%;
-}
-
-
-/* ---------- Reel indicators ---------- */
-
-.home-reel .carousel-indicators {
-  bottom: 118px;
-
-  margin-bottom: 1rem;
-}
-
-
-.home-reel .carousel-indicators button {
-  width: 28px;
-  height: 3px;
-
-  border: 0;
-
-  background-color: var(--ink);
-
-  opacity: 0.35;
-}
-
-
-.home-reel .carousel-indicators .active {
-  opacity: 0.9;
-}
-
-
-/* ============================================================
-   GENERAL SECTIONS
+   STANDARD SECTIONS
    ============================================================ */
 
 .section-wrap {
@@ -482,7 +373,6 @@ body {
 
   padding: 6.2rem 0;
 }
-
 
 .section-kicker {
   color: var(--accent);
@@ -497,23 +387,16 @@ body {
   margin-bottom: 0.7rem;
 }
 
-
 .section-title {
   max-width: 850px;
 
-  font-size: clamp(
-    2rem,
-    4vw,
-    3.7rem
-  );
+  font-size: clamp(2rem, 4vw, 3.7rem);
 
   line-height: 1.05;
-
   letter-spacing: -0.04em;
 
   margin-bottom: 1.4rem;
 }
-
 
 .section-intro {
   max-width: 780px;
@@ -525,20 +408,18 @@ body {
 
 
 /* ============================================================
-   HOME RESEARCH CARDS
+   HOMEPAGE RESEARCH CARDS
    ============================================================ */
 
 .research-grid {
   display: grid;
 
-  grid-template-columns:
-    repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   gap: 1.2rem;
 
   margin-top: 3.2rem;
 }
-
 
 .research-card {
   border: 1px solid var(--line);
@@ -552,126 +433,183 @@ body {
   min-height: 310px;
 
   transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
 }
-
 
 .research-card:hover {
   transform: translateY(-4px);
 
-  box-shadow:
-    0 14px 35px
-    rgba(0, 0, 0, 0.07);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.07);
 }
-
 
 .card-number {
   color: var(--accent);
 
-  font-weight: 800;
+  font-size: 0.78rem;
 
-  font-size: 0.83rem;
+  font-weight: 750;
 
-  letter-spacing: 0.12em;
+  letter-spacing: 0.11em;
+
+  margin-bottom: 1.2rem;
 }
 
-
 .research-card h3 {
-  font-size: 1.65rem;
+  font-size: 1.5rem;
 
-  margin-top: 1.7rem;
+  line-height: 1.15;
 
   letter-spacing: -0.025em;
 }
-
 
 .research-card p {
   color: var(--muted);
 }
 
-
 .card-tags {
-  font-size: 0.88rem;
+  color: var(--accent);
 
-  color: #454545;
+  font-size: 0.82rem;
 
-  margin-top: 1.7rem;
+  font-weight: 650;
+
+  margin-top: 1.2rem;
 }
 
 
 /* ============================================================
-   BANDS
+   IMAGE REEL / CAROUSEL
+   ============================================================ */
+
+.home-reel {
+  width: min(
+    var(--max-width),
+    calc(100% - 3rem)
+  );
+
+  margin: 4.5rem auto 5.5rem;
+}
+
+.home-reel .carousel {
+  overflow: hidden;
+
+  border: 1px solid var(--line);
+
+  border-radius: 22px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.035),
+    0 16px 44px rgba(0, 0, 0, 0.07);
+}
+
+.home-reel .carousel-item img {
+  display: block;
+
+  width: 100%;
+
+  height: clamp(380px, 48vw, 600px);
+
+  object-fit: contain;
+
+  background: #ffffff;
+}
+
+.reel-caption-below {
+  position: relative;
+
+  padding: 1.6rem 2rem 2rem;
+
+  background: #ffffff;
+
+  border-top: 1px solid var(--line);
+
+  text-align: left;
+}
+
+.reel-label {
+  color: var(--accent);
+
+  font-size: 0.76rem;
+  font-weight: 750;
+
+  letter-spacing: 0.13em;
+
+  margin-bottom: 0.35rem;
+}
+
+.reel-title {
+  color: var(--ink);
+
+  font-size: clamp(1.3rem, 2vw, 1.9rem);
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  letter-spacing: -0.025em;
+}
+
+.reel-paper {
+  color: var(--muted);
+
+  font-size: 0.92rem;
+
+  margin-top: 0.45rem;
+}
+
+.home-reel .carousel-control-prev,
+.home-reel .carousel-control-next {
+  width: 7%;
+
+  bottom: 120px;
+}
+
+.home-reel .carousel-control-prev-icon,
+.home-reel .carousel-control-next-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+
+  border-radius: 50%;
+
+  background-color: rgba(23, 23, 23, 0.72);
+
+  background-size: 48%;
+}
+
+.home-reel .carousel-indicators {
+  bottom: 118px;
+
+  margin-bottom: 1rem;
+}
+
+.home-reel .carousel-indicators button {
+  width: 28px;
+  height: 3px;
+
+  border: 0;
+
+  background-color: var(--ink);
+
+  opacity: 0.35;
+}
+
+.home-reel .carousel-indicators .active {
+  opacity: 0.9;
+}
+
+
+/* ============================================================
+   BAND
    ============================================================ */
 
 .band {
   background: var(--soft);
 
   border-top: 1px solid var(--line);
-
   border-bottom: 1px solid var(--line);
-}
-
-
-/* ============================================================
-   SPLIT LAYOUT
-   ============================================================ */
-
-.split {
-  display: grid;
-
-  grid-template-columns:
-    0.8fr 1.2fr;
-
-  gap: 4.5rem;
-
-  align-items: start;
-}
-
-
-.split h2 {
-  font-size: clamp(
-    2rem,
-    4vw,
-    3.4rem
-  );
-
-  letter-spacing: -0.04em;
-}
-
-
-.split p {
-  font-size: 1.22rem;
-
-  color: #404040;
-}
-
-
-/* ============================================================
-   PILLS
-   ============================================================ */
-
-.pills {
-  display: flex;
-
-  flex-wrap: wrap;
-
-  gap: 0.65rem;
-
-  margin-top: 2rem;
-}
-
-
-.pill {
-  border: 1px solid #c9c4bd;
-
-  border-radius: 999px;
-
-  padding: 0.46rem 0.8rem;
-
-  background: #ffffff;
-
-  font-size: 0.9rem;
 }
 
 
@@ -680,35 +618,31 @@ body {
    ============================================================ */
 
 .news-list {
-  margin-top: 2.5rem;
-
-  border-top: 1px solid var(--line);
+  margin-top: 2.4rem;
 }
-
 
 .news-item {
   display: grid;
 
-  grid-template-columns:
-    160px 1fr;
+  grid-template-columns: 150px 1fr;
 
-  gap: 1.5rem;
+  gap: 2rem;
 
-  padding: 1.45rem 0;
+  padding: 1.4rem 0;
 
-  border-bottom: 1px solid var(--line);
+  border-top: 1px solid var(--line);
 }
 
+.news-item:last-child {
+  border-bottom: 1px solid var(--line);
+}
 
 .news-date {
   color: var(--muted);
 
-  font-size: 0.92rem;
-}
+  font-size: 0.88rem;
 
-
-.news-item strong {
-  font-size: 1.08rem;
+  font-weight: 600;
 }
 
 
@@ -717,127 +651,56 @@ body {
    ============================================================ */
 
 .cta {
-  border-radius: 24px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 3rem;
+
+  padding: 3rem;
+
+  border-radius: 22px;
 
   background: var(--ink);
 
-  color: white;
-
-  padding: 3.4rem;
-
-  display: grid;
-
-  grid-template-columns:
-    1.3fr 0.7fr;
-
-  gap: 2rem;
-
-  align-items: center;
+  color: #ffffff;
 }
-
 
 .cta h2 {
-  color: white;
+  color: #ffffff;
 
-  font-size: clamp(
-    2rem,
-    4vw,
-    3.6rem
-  );
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+
+  letter-spacing: -0.035em;
 
   margin-bottom: 0.8rem;
-
-  letter-spacing: -0.04em;
 }
-
 
 .cta p {
-  color: #dedede;
+  max-width: 760px;
 
-  max-width: 720px;
+  color: rgba(255, 255, 255, 0.78);
 
-  font-size: 1.15rem;
+  margin-bottom: 0;
 }
 
-
 .cta .btn {
-  justify-self: end;
+  flex-shrink: 0;
 
   background: #ffffff;
 
-  color: #111111;
+  border-color: #ffffff;
 
-  border: 0;
-
-  border-radius: 999px;
-
-  padding: 0.85rem 1.2rem;
-
-  font-weight: 700;
+  color: var(--ink);
 }
 
+.cta .btn:hover {
+  background: #eeeeee;
 
-/* ============================================================
-   ARTICLE PAGE HERO
-   ============================================================ */
+  border-color: #eeeeee;
 
-.page-hero {
-  padding: 5.3rem 0 3rem;
-
-  border-bottom: 1px solid var(--line);
-
-  margin-bottom: 3.5rem;
-}
-
-
-.page-hero h1 {
-  font-size: clamp(
-    3rem,
-    6vw,
-    5.5rem
-  );
-
-  letter-spacing: -0.05em;
-
-  line-height: 0.98;
-}
-
-
-.page-hero p {
-  max-width: 780px;
-
-  color: var(--muted);
-
-  font-size: 1.22rem;
-}
-
-
-/* ============================================================
-   SIMPLE PROJECT BLOCKS
-   ============================================================ */
-
-.project-block {
-  padding: 2.3rem 0;
-
-  border-bottom: 1px solid var(--line);
-}
-
-
-.project-block h2 {
-  font-size: 2rem;
-
-  letter-spacing: -0.03em;
-}
-
-
-.project-meta {
-  color: var(--accent);
-
-  font-weight: 700;
-
-  font-size: 0.9rem;
-
-  letter-spacing: 0.035em;
+  color: var(--ink);
 }
 
 
@@ -852,11 +715,7 @@ body {
     minmax(0, 0.45fr)
     minmax(0, 0.55fr);
 
-  gap: clamp(
-    2rem,
-    4vw,
-    3.6rem
-  );
+  gap: clamp(2rem, 4vw, 3.6rem);
 
   align-items: center;
 
@@ -865,30 +724,21 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-
 .research-feature:first-of-type {
   padding-top: 1rem;
 }
-
 
 .research-feature:last-of-type {
   border-bottom: 0;
 }
 
-
-/* ============================================================
-   RESEARCH IMAGE COLUMN
-   ============================================================ */
-
 .research-visual {
   min-width: 0;
 }
 
-
 .research-visual p {
   margin: 0;
 }
-
 
 .research-visual img {
   display: block;
@@ -903,55 +753,35 @@ body {
   background: var(--soft);
 
   box-shadow:
-    0 2px 5px
-    rgba(0, 0, 0, 0.035),
-
-    0 14px 36px
-    rgba(0, 0, 0, 0.075);
+    0 2px 5px rgba(0, 0, 0, 0.035),
+    0 14px 36px rgba(0, 0, 0, 0.075);
 
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
 }
 
-
 .research-visual img:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 
   box-shadow:
-    0 3px 7px
-    rgba(0, 0, 0, 0.04),
-
-    0 18px 42px
-    rgba(0, 0, 0, 0.09);
+    0 3px 7px rgba(0, 0, 0, 0.04),
+    0 18px 44px rgba(0, 0, 0, 0.09);
 }
-
-
-/* ============================================================
-   RESEARCH TEXT COLUMN
-   ============================================================ */
 
 .research-copy {
   min-width: 0;
 }
 
-
 .research-copy h2 {
-  font-size: clamp(
-    1.8rem,
-    3vw,
-    2.35rem
-  );
+  font-size: clamp(1.9rem, 3vw, 2.8rem);
 
-  line-height: 1.12;
+  line-height: 1.08;
 
   letter-spacing: -0.035em;
 
-  margin-top: 0.45rem;
-
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.2rem;
 }
-
 
 .research-copy p {
   color: #404040;
@@ -959,35 +789,24 @@ body {
   line-height: 1.7;
 
   text-align: justify;
-
   text-justify: inter-word;
 }
-
 
 .research-copy p:last-child {
   margin-bottom: 0;
 }
 
-
 .research-copy strong {
   color: var(--ink);
 }
 
-
-/* ============================================================
-   ALTERNATING RESEARCH LAYOUT
-   ============================================================ */
-
 .research-feature-reverse .research-visual {
   grid-column: 2;
-
   grid-row: 1;
 }
 
-
 .research-feature-reverse .research-copy {
   grid-column: 1;
-
   grid-row: 1;
 }
 
@@ -999,57 +818,131 @@ body {
 .person-grid {
   display: grid;
 
-  grid-template-columns:
-    repeat(3, 1fr);
+  grid-template-columns: 1fr;
 
-  gap: 1.3rem;
+  gap: 1.5rem;
+
+  margin-bottom: 3.8rem;
 }
 
 
+/* ============================================================
+   WIDE PERSON CARD
+   ============================================================ */
+
 .person-card {
+  display: grid;
+
+  grid-template-columns: 240px minmax(0, 1fr);
+
+  column-gap: 2.5rem;
+
+  align-items: start;
+
+  width: 100%;
+
+  padding: 1.8rem;
+
   border: 1px solid var(--line);
 
   border-radius: 18px;
 
-  padding: 1.7rem;
+  background: #ffffff;
+
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.025),
+    0 10px 30px rgba(0, 0, 0, 0.035);
 }
 
 
-.person-placeholder {
-  aspect-ratio: 4 / 3;
+/* Quarto wraps markdown images in a paragraph */
 
-  background:
-    linear-gradient(
-      135deg,
-      #ece9e5,
-      #f8f7f5
-    );
+.person-card > p:first-of-type {
+  grid-column: 1;
+  grid-row: 1 / span 10;
 
-  border-radius: 12px;
-
-  margin-bottom: 1.3rem;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  color: #888888;
+  margin: 0;
 }
 
+
+/* Person photo */
+
+.person-card img {
+  display: block;
+
+  width: 240px;
+  height: auto;
+
+  margin: 0;
+
+  border-radius: 14px;
+
+  object-fit: cover;
+}
+
+
+/* Name */
 
 .person-card h3 {
-  margin-bottom: 0.2rem;
+  grid-column: 2;
+
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+
+  font-size: 1.5rem;
+
+  line-height: 1.2;
+
+  letter-spacing: -0.025em;
 }
 
 
+/* Position */
+
 .person-role {
+  grid-column: 2;
+
   color: var(--accent);
+
+  font-size: 0.9rem;
 
   font-weight: 650;
 
-  font-size: 0.92rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Biography and links */
+
+.person-card > p:not(:first-of-type) {
+  grid-column: 2;
+
+  color: #444444;
+
+  line-height: 1.7;
+}
+
+.person-card > p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ============================================================
+   PRINCIPAL INVESTIGATOR
+   ============================================================ */
+
+.pi-grid .person-card {
+  grid-template-columns: 280px minmax(0, 1fr);
+
+  column-gap: 2.7rem;
+}
+
+.pi-grid .person-card img {
+  width: 280px;
+}
+
+.pi-grid .person-card h3 {
+  font-size: 1.65rem;
 }
 
 
@@ -1063,13 +956,11 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-
 .pub-title {
   font-weight: 700;
 
   font-size: 1.08rem;
 }
-
 
 .pub-title a {
   color: var(--ink);
@@ -1079,13 +970,11 @@ body {
   transition: color 0.18s ease;
 }
 
-
 .pub-title a:hover {
   color: var(--accent);
 
   text-decoration: none;
 }
-
 
 .pub-authors {
   margin-top: 0.28rem;
@@ -1093,13 +982,11 @@ body {
   line-height: 1.55;
 }
 
-
 .pub-meta {
   color: var(--muted);
 
   margin-top: 0.2rem;
 }
-
 
 .pub-note {
   color: var(--muted);
@@ -1111,151 +998,132 @@ body {
 
 
 /* ============================================================
-   QUARTO ELEMENTS
-   ============================================================ */
-
-.quarto-title-banner {
-  display: none;
-}
-
-
-.nav-footer {
-  border-top: 1px solid var(--line);
-
-  background: #fafafa;
-}
-
-
-/* ============================================================
-   TABLET / SMALL DESKTOP
+   TABLET
    ============================================================ */
 
 @media (max-width: 900px) {
-
-  .research-grid,
-  .person-grid {
-    grid-template-columns: 1fr;
-  }
-
-
-  .split,
-  .cta {
-    grid-template-columns: 1fr;
-
-    gap: 1.5rem;
-  }
-
-
-  .cta .btn {
-    justify-self: start;
-  }
-
-
-  .news-item {
-    grid-template-columns: 1fr;
-
-    gap: 0.35rem;
-  }
-
 
   .hero {
     min-height: auto;
   }
 
-
   .hero-inner {
-    width: min(
-      var(--max-width),
-      calc(100% - 3rem)
-    );
-
-    padding: 5rem 0 4rem;
+    padding: 4.2rem 0 3.5rem;
   }
-
 
   .hero-split {
     grid-template-columns: 1fr;
-
-    gap: 2.2rem;
   }
-
-
-  .hero-copy {
-    max-width: 800px;
-  }
-
 
   .hero-visual {
     order: 2;
   }
 
-
   .hero-visual img {
     width: 100%;
-
     max-width: 900px;
 
     margin-left: 0;
 
     transform: none;
   }
+
 }
 
 
 /* ============================================================
-   RESEARCH PAGE / REEL TABLET
+   SMALL TABLET
    ============================================================ */
 
 @media (max-width: 780px) {
 
-  .research-feature,
-  .research-feature-reverse {
+  .research-grid {
     grid-template-columns: 1fr;
-
-    gap: 1.6rem;
-
-    padding: 3rem 0;
   }
 
+
+  /* Research page */
+
+  .research-feature {
+    grid-template-columns: 1fr;
+
+    padding: 2.8rem 0;
+  }
 
   .research-feature .research-visual,
   .research-feature-reverse .research-visual {
     grid-column: 1;
-
     grid-row: 1;
   }
-
 
   .research-feature .research-copy,
   .research-feature-reverse .research-copy {
     grid-column: 1;
-
     grid-row: 2;
   }
-
-
-  .research-visual img {
-    width: 100%;
-
-    height: auto;
-
-    object-fit: contain;
-
-    border-radius: 14px;
-  }
-
-
-  .research-copy h2 {
-    font-size: 1.8rem;
-  }
-
 
   .research-copy p {
     text-align: left;
   }
 
 
-  /* ---------- Reel ---------- */
+  /* People */
+
+  .person-card,
+  .pi-grid .person-card {
+    display: block;
+
+    padding: 1.4rem;
+  }
+
+  .person-card > p:first-of-type,
+  .pi-grid .person-card > p:first-of-type {
+    margin-bottom: 1.3rem;
+  }
+
+  .person-card img,
+  .pi-grid .person-card img {
+    width: 100%;
+
+    max-width: 420px;
+
+    margin: 0 0 1.3rem 0;
+  }
+
+  .person-card h3,
+  .pi-grid .person-card h3 {
+    font-size: 1.4rem;
+  }
+
+
+  /* Join page */
+
+  .join-page p {
+    text-align: left;
+  }
+
+
+  /* News */
+
+  .news-item {
+    grid-template-columns: 1fr;
+
+    gap: 0.4rem;
+  }
+
+
+  /* CTA */
+
+  .cta {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding: 2.2rem;
+  }
+
+
+  /* Carousel */
 
   .home-reel {
     width: min(
@@ -1266,28 +1134,22 @@ body {
     margin: 2.5rem auto 3.5rem;
   }
 
-
   .home-reel .carousel {
     border-radius: 16px;
   }
-
 
   .home-reel .carousel-item img {
     height: 380px;
   }
 
-
   .reel-caption-below {
-    padding:
-      1.3rem
-      1.4rem
-      1.6rem;
+    padding: 1.3rem 1.4rem 1.6rem;
   }
-
 
   .reel-title {
     font-size: 1.35rem;
   }
+
 }
 
 
@@ -1297,61 +1159,44 @@ body {
 
 @media (max-width: 560px) {
 
+  /* Navbar */
+
   .navbar-logo {
-    height: 58px !important;
+    height: 42px !important;
+
     max-height: none !important;
+
     max-width: 170px;
 
     margin-right: 0.5rem;
   }
 
 
-  .hero-inner,
-  .section-wrap {
-    width: min(
-      100% - 2rem,
-      var(--max-width)
-    );
-  }
-
+  /* Hero */
 
   .hero-inner {
-    padding:
-      4rem
-      0
-      3.5rem;
-  }
+    width: calc(100% - 2rem);
 
+    padding-top: 3.4rem;
+  }
 
   .hero h1 {
-    font-size: 3rem;
+    font-size: clamp(2.7rem, 13vw, 4rem);
   }
 
 
-  .hero .lead {
-    font-size: 1.12rem;
-  }
-
-
-  .hero-split {
-    gap: 1.6rem;
-  }
-
-
-  /* ----------------------------------------------------------
-     MOBILE HERO IMAGE
-     ---------------------------------------------------------- */
+  /* Hero image */
 
   .hero-visual {
     overflow: visible;
   }
-
 
   .hero-visual img {
     display: block;
 
     width: 110%;
     max-width: none;
+
     height: auto;
 
     position: relative;
@@ -1364,59 +1209,60 @@ body {
   }
 
 
+  /* Standard widths */
+
   .section-wrap {
-    padding: 4.2rem 0;
+    width: calc(100% - 2rem);
+
+    padding: 4.5rem 0;
+  }
+
+  .people-page {
+    width: calc(100% - 2rem);
   }
 
 
-  .cta {
-    padding: 2.2rem;
-  }
-
+  /* Page heading */
 
   .page-hero {
-    padding-top: 3.8rem;
-
-    margin-bottom: 2rem;
+    padding-top: 3.2rem;
+    padding-bottom: 2rem;
   }
 
 
-  .research-feature {
-    padding: 2.6rem 0;
-  }
-
-
-  .research-feature:first-of-type {
-    padding-top: 0.5rem;
-  }
-
-
-  .research-visual img {
-    width: 100%;
-
-    height: auto;
-
-    border-radius: 12px;
-  }
-
-
-  /* ---------- Reel ---------- */
+  /* Carousel */
 
   .home-reel .carousel-item img {
     height: 280px;
   }
-
 
   .home-reel .carousel-control-prev,
   .home-reel .carousel-control-next {
     width: 12%;
   }
 
-
   .reel-caption-below {
-    padding:
-      1.1rem
-      1.2rem
-      1.4rem;
+    padding: 1.1rem 1.2rem 1.4rem;
   }
+
+
+  /* People */
+
+  .person-card,
+  .pi-grid .person-card {
+    padding: 1.25rem;
+  }
+
+  .person-card img,
+  .pi-grid .person-card img {
+    max-width: none;
+  }
+
+
+  /* CTA */
+
+  .cta {
+    padding: 1.8rem;
+  }
+
 }
