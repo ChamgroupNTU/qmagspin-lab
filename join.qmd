@@ -17,9 +17,7 @@ We are building a new research group at NTU EEE working at the intersection of q
 
 We welcome enquiries from prospective PhD students interested in experimental condensed matter physics, quantum materials, magnetism, spintronics, ultrafast spectroscopy, and terahertz science.
 
-**We have openings for the Jan 2027 and Aug 2027 intakes**. Students may apply through NTU's graduate research programmes and are encouraged to explore [NTU Research Scholarships](https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships).
-
-Prospective students are welcome to get in touch to discuss possible research directions and potential projects before applying.
+**We have openings for the Jan 2027 and Aug 2027 intakes**. Ph.D. positions are fully funded and supported by [NTU Research Scholarships](https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships). Graduating students considering graduate studies are encouraged to get in touch to learn more and will be guided through the applications process.
 
 
 ## Postdoctoral researchers
@@ -35,7 +33,7 @@ Interested candidates are encouraged to contact us to discuss research interests
 
 We welcome motivated NTU undergraduate students interested in gaining research experience in quantum materials, optics, magnetism, spintronics, and related experimental techniques.
 
-Projects may involve optical spectroscopy, device fabrication, data analysis, numerical modelling, instrumentation, or the development of new experimental techniques.
+ultrafast and terahertz spectroscopy, nanoscale device fabrication, electrical and optical measurements of spin dynamics, and the development of new spectroscopic techniques for probing quantum phenomena in 2D heterostructures.
 
 
 ## Get in touch
