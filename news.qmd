@@ -10,12 +10,12 @@ page-layout: article
 People, papers, experiments, and milestones from the group.
 :::
 
-### September 2026 — The lab begins at NTU
+### September 2026 — The lab begins at NTU!
 
 The Cham QMagSpin Lab launches in the School of Electrical and Electronic Engineering at Nanyang Technological University.
 
 ---
 
-### September 2026 — We are recruiting
+### September 2026 — We are recruiting!
 
 We welcome enquiries from prospective PhD students, postdoctoral researchers, and undergraduate researchers interested in quantum materials, magnonics, spintronics, and ultrafast spectroscopy.

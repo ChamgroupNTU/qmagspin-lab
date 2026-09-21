@@ -31,7 +31,6 @@ Research on collective quantum dynamics, magnonics, and van der Waals heterostru
 <div class="pub-title"><a href="https://doi.org/10.1126/sciadv.adi9039" target="_blank">Sagnac interferometry for high-sensitivity optical measurements of spin-orbit torque</a></div>
 <div class="pub-authors">Saba Karimeddiny<sup>&ast;</sup>, <strong>Thow Min Jerald Cham<sup>&ast;</sup></strong>, Orion Smedley, Daniel C. Ralph, Yunqiu Kelly Luo</div>
 <div class="pub-meta"><em>Science Advances</em> <strong>9</strong>, eadi9039 (2023)</div>
-<div class="pub-note"><sup>&ast;</sup> Equal Contribution.</div>
 :::
 
 
